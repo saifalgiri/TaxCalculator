@@ -3,7 +3,7 @@
 A SOLID, clean-layered .NET 8 Web API for configuring and calculating country taxes.
 
 ## Solution Structure
-## TODO: Logging is not encluded yet
+## TODO: Logging is not included yet
 
 ```
 TaxCalculator.sln

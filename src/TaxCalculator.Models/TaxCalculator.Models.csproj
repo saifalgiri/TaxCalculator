@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TaxCalculator.Models</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Validators live in the Models layer so requests are self-validating -->
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+  </ItemGroup>
+</Project>
